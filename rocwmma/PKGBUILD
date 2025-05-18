@@ -20,7 +20,7 @@ build() {
       -B build \
       -S "$_dirname" \
       -DCMAKE_INSTALL_PREFIX=/opt/rocm \
-      -DCMAKE_BUILD_TYPE=Release \
+      -DCMAKE_BUILD_TYPE=None \
       -DROCWMMA_BUILD_TESTS=OFF \
       -DROCWMMA_BUILD_SAMPLES=OFF \
       -DCMAKE_POLICY_VERSION_MINIMUM=3.5
